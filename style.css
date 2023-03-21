@@ -1,1 +1,122 @@
+/* Hero Section */
+
+
+
+/* Explore Section */
+
+
+
+
+/* Teachers Section */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+.testimonials {
+    padding: 40px 0;
+    /* background: #ebe6e6; */
+    color: white;
+    text-align: center;
+}
+
+
+/* .inner {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+} */
+
+.border {
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+
+.testimonial {
+    background: whitesmoke;
+    /* padding: 30px; */
+    margin: 10px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    line-height: 20px;
+    transition: all .2s ease-in-out;
+    background-image:linear-gradient(gold,magenta) ;
+}
+
+.testimonial>img{
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    border-radius: 50%;
+    
+}
+.testimonial>button{
+    color:blue
+}
+
+.testimonial>p {
+    margin-top: 21px;
+}
+
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    margin-top: -1px;
+}
+
+.testimonial:hover {
+    transform: scale(1.02);
+}
+
+/* Review Section */
+.reviews {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background: #f2be55;
+    margin: 26px auto;
+}
+
+.review {
+
+    margin: 10px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    line-height: 20px;
+    transition: all .2s ease-in-out;
+}
+
+
+.review:hover {
+    transform: scale(1.02);
+}
+
+
+.reveal {
+    margin-top:-11px;
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1.9s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
 
